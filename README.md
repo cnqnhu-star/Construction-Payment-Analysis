@@ -19,7 +19,7 @@ This project showcases the data transformation and visualization of a 13-milesto
 *   **Insight:** Tracked a consistent monthly billing cycle (Apr 2025 - Jul 2026). The highest net realization occurred in Milestone 09 (approx. 9.7 Billion VND) due to major structural progress.
 
 ### 2. Detailed Progress Payments Ledger
-<img width="1616" height="639" alt="ProgressPayments" src="https://github.com/user-attachments/assets/788ee933-cc46-40bd-8663-d2b3e0118442" />
+![ProgressPayments](Images/ProgressPayments.png)
 
 *   **Description:** A detailed breakdown of Work Approved (Excl. VAT), Total Approved Value (Incl. VAT), Advance Payment Recovery, and Retentions. 
 *   **Insight:** Out of a total approved work value of **65.6 Billion VND**, the actual Net Payable cash inflow was **61.6 Billion VND**. The 4 Billion VND gap is primarily driven by 5% retention and advance recovery, highlighting the importance of cash flow forecasting.
