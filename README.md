@@ -1,44 +1,44 @@
-# Construction Payment Application & Cash Flow Analysis
+# Construction Payment Analytics & Cash Flow Assessment
 
-## Project Overview
-This project showcases the data transformation and visualization of a 13-milestone payment application for a commercial construction project. The objective was to convert fragmented, unstructured legacy ledgers (originally in Vietnamese) into a clean, standardized English dataset to monitor cash flow, track WBS (Work Breakdown Structure) progress, and identify payment anomalies.
+## 📌 Project Overview
+This repository contains a comprehensive financial analysis of a 13-milestone payment application for a commercial construction project (Mall Area). The objective was to transform fragmented, unstructured legacy ledgers into a standardized English dataset, analyze cash flow trends, and evaluate structural gaps between approved work and actual cash realization.
 
-## Methodology & Data Transformation
-- **Data Extraction:** Raw data was extracted from legacy Excel sheets containing mixed transactional, advance payment, and subtotal rows.
-- **Data Cleansing:** Used Excel tools to filter out double-counting rows, standardize date formats, and map Vietnamese terms to standard international construction accounting terms (e.g., *Advance Payment Deductions, Retention Value, Net Payable*).
-- **Data Modeling:** Structured the cleaned data into three distinct analytical views: Executive Summary, Detailed Ledger, and WBS Matrix.
+## 🚀 Executive Summary
+Over the 13 certified milestones (Apr 2025 - Jul 2026), the Project converted **65.64 bn VND** of approved value (incl. VAT) into **61.64 bn VND** of cash (93.9%). Net Payable from progress payments alone was **58.35 bn VND**.
 
----
+Our analysis highlights three critical insights for investors:
+1. **Front-loaded Cash Inflow:** 94.0% of Net Payable was received by Milestone 10. The close-out phase (M11-M13) suffered a severe liquidity trough, with a 106-day gap without payment between M12 and M13.
+2. **Scope Expansion (Variation Orders):** The original Mall Area contract (22.49 bn VND) was expanded to 57.38 bn VND. Cumulative certified work reached 55.26 bn VND, reflecting 96.3% completion against the adjusted value.
+3. **Schedule & Execution Risk:** As of Milestone 13, approximately 5.24 bn VND of adjusted scope remains uncertified. With the completion date set for 31 August 2026, the contractor faces a tight 52-day window to complete the remaining work and avoid potential Liquidated Damages.
 
-## Dashboard & Insights
+## 🛠️ Data Transformation & Integrity Review
+A crucial part of this project was the **Data Audit and Cleansing** phase. The original legacy ledgers contained structural errors, double-counted subtotals, and baseline contract values that had not been updated for Variation Orders. 
 
-### 1. Executive Payment Summary
-<img width="1288" height="498" alt="SummaryofPayment" src="https://github.com/user-attachments/assets/2fd978a9-aba4-4bfc-8770-535016a0b106" />
+Below is the comparison of the data before and after the cleansing process:
 
-*   **Description:** A condensed summary of 13 payment applications, tracking Net Payable amounts after deducting advances and retentions.
-*   **Insight:** Tracked a consistent monthly billing cycle (Apr 2025 - Jul 2026). The highest net realization occurred in Milestone 09 (approx. 9.7 Billion VND) due to major structural progress.
+### Before Correction (Raw Data)
+*The raw data contained inconsistent baseline values that led to an apparent (and misleading) 184% cost overrun.*
+![Before Correction](Images/ValueofWorkCompleted.Before_Correction.png)
 
-### 2. Detailed Progress Payments Ledger
-![ProgressPayments](Images/ProgressPayments.png)
+### After Correction (Cleaned & Validated Data)
+*After cross-referencing with contract documents, the baseline was accurately aligned with Variation Orders. The actual completion rate is a healthy 96.3%.*
+![After Correction](Images/ValueofWorkCompleted.After_Correction.png)
 
-*   **Description:** A detailed breakdown of Work Approved (Excl. VAT), Total Approved Value (Incl. VAT), Advance Payment Recovery, and Retentions. 
-*   **Insight:** Out of a total approved work value of **65.6 Billion VND**, the actual Net Payable cash inflow was **61.6 Billion VND**. The 4 Billion VND gap is primarily driven by 5% retention and advance recovery, highlighting the importance of cash flow forecasting.
+## 📊 Dashboard & Payment Summaries
+Here are the cleaned schedules used for the financial modeling:
 
-### 3. WBS Matrix: Work Value by Task Description
-<img width="1862" height="530" alt="ValueofWorkCompleted" src="https://github.com/user-attachments/assets/b555f0dd-3a6a-44ff-b0ad-55f817b161e9" />
+**Progress Payments Ledger:**
+![Progress Payments](Images/ProgressPayments.png)
 
-*   **Description:** A dynamic matrix mapping payment amounts across various construction tasks (Foundation, Structural Work, Mall Area, Roof Drainage, etc.) for each milestone.
-*   **Insight:** The matrix reveals that **Structural Work** and **Reinforced Concrete Works for Mall Area** are the largest cost drivers. Milestone 09 was a critical month where structural work peaked, while Milestones 11-13 saw an increase in "Miscellaneous" tasks, indicating project finalization and snagging phases.
+**Summary of Payment:**
+![Summary of Payment](Images/SummaryofPayment.png)
 
----
+## 📂 Repository Structure
+- `/Images`: Contains the Before/After screenshots and payment summaries.
+- `/Raw_Data`: Contains the original and corrected Excel files for reference.
+- **[Investor_Briefing_13_Payment_Milestones_v3.pdf](Investor_Briefing_13_Payment_Milestones_v3.pdf)**: The full 11-page Investment Due Diligence Report.
 
-## Repository Structure
-- `/Images`: Contains screenshots of the payment summaries and WBS matrix.
-- `/Raw_Data`: Contains the original, unmodified Excel file for reference.
-
-## Key Skills Demonstrated
-- **Financial Analysis:** Cash flow tracking, retention analysis, WBS cost allocation.
-- **Data Cleaning:** Transforming unstructured legacy data into flat tables.
-- **Documentation:** Bilingual translation (Vietnamese to English) of construction accounting terms.
----
-For the full financial analysis, please refer to Financial_Analysis_Report.md
+## 💡 Key Skills Demonstrated
+- **Financial Analysis:** Cash flow forecasting, retention analysis, WBS cost allocation, and risk assessment.
+- **Data Cleansing & Audit:** Identifying baseline discrepancies, resolving double-counting issues, and validating raw data against legal contracts.
+- **Reporting:** Translating complex payment dynamics into executive-level investment insights.
