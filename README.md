@@ -40,3 +40,5 @@ This project showcases the data transformation and visualization of a 13-milesto
 - **Financial Analysis:** Cash flow tracking, retention analysis, WBS cost allocation.
 - **Data Cleaning:** Transforming unstructured legacy data into flat tables.
 - **Documentation:** Bilingual translation (Vietnamese to English) of construction accounting terms.
+---
+For the full financial analysis, please refer to Financial_Analysis_Report.md
