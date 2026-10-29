@@ -1,5 +1,8 @@
 # Construction Payment Analytics & Cash Flow Assessment
 
+**At a glance:** A financial deep-dive into 13 construction payment milestones, uncovering a 106-day cash flow gap in the close-out phase, a 5.24 bn VND schedule risk, and resolving a 184% variance illusion caused by un-updated contract baselines.
+**[Download the Full 11-Page Investor Due Diligence Report (PDF)](Investor_Briefing_13_Payment_Milestones.pdf)**
+
 ## 📌 Project Overview
 This repository contains a comprehensive financial analysis of a 13-milestone payment application for a commercial construction project (Mall Area). The objective was to transform fragmented, unstructured legacy ledgers into a standardized English dataset, analyze cash flow trends, and evaluate structural gaps between approved work and actual cash realization.
 
@@ -36,7 +39,7 @@ Here are the cleaned schedules used for the financial modeling:
 ## 📂 Repository Structure
 - `/Images`: Contains the Before/After screenshots and payment summaries.
 - `/Raw_Data`: Contains the original and corrected Excel files for reference.
-- **[Investor_Briefing_13_Payment_Milestones_v3.pdf](Investor_Briefing_13_Payment_Milestones_v3.pdf)**: The full 11-page Investment Due Diligence Report.
+- **[Investor_Briefing_13_Payment_Milestones_v3.pdf](Investor_Briefing_13_Payment_Milestones.pdf)**: The full 11-page Investment Due Diligence Report.
 
 ## 💡 Key Skills Demonstrated
 - **Financial Analysis:** Cash flow forecasting, retention analysis, WBS cost allocation, and risk assessment.
